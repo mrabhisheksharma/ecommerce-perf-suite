@@ -1,9 +1,9 @@
 sku,product_name,category,unit_price_usd,stock_quantity
 SKU-4921,Wireless Noise Cancelling Headphones,electronics,129.99,4500
-SKU-8192,Ultra-Wide Curved Gaming Monitor 34-inch,electronics,389.50,1200
+SKU-8192,Ultra-Wide Curved Gaming Monitor 34-inch,electronics,389.50,120
 SKU-3104,Ergonomic Mechanical Keyboard RGB,accessories,79.00,8900
-SKU-9921,Smart Fitness Tracker Waterproof,wearables,49.95,15000
-SKU-1482,Precision USB-C Fast Charger 65W,accessories,29.99,25000
-SKU-7741,4K UHD Streaming Media Player,electronics,59.99,7800
+SKU-9921,Smart Fitness Tracker Waterproof,wearables,49.95,1500
+SKU-1482,Precision USB-C Fast Charger 65W,accessories,29.99,2500
+SKU-7741,4K UHD Streaming Media Player,electronics,59.99,780
 SKU-5529,Noise Isolating Studio Microphone,audio,119.00,3200
 SKU-2918,Portable Bluetooth Speaker 20W,audio,39.99,11445
