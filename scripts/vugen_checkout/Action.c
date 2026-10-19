@@ -35,7 +35,7 @@ Action()
 
     lr_end_transaction("02_Search_Catalog", LR_AUTO);
 
-    lr_think_time(2.0);
+    lr_think_time(0.5); /* Aggressive think time for stress burst testing */
 
     /* -------------------------------------------------------------------------
        Transaction 03: Add To Cart
