@@ -4,7 +4,7 @@
 **Target Environment:** Staging-Perf-US-East  
 **Build Version:** `v2.14.0-rc3` (Git commit: `a3f9c1e`, Tag: `run-14-baseline`)  
 **Test Objective:** Black Friday Peak Load Validation (Target: 1,000 Virtual Users / 800 TPS)  
-**Execution Window:** 2026-10-19 14:00:00 UTC – 15:00:00 UTC (15m Ramp, 45m Steady-State)  
+**Execution Window:** 2026-10-19 14:00:00 UTC – 15:00:00 UTC (15m Ramp, 45m Steady-State....)  
 **Lead Performance Engineer:** Abhishek  
 **Overall Verdict:** ❌ **CONDITIONAL FAIL (Critical Defect PERF-104 Logged)**
 
