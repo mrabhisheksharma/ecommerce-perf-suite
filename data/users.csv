@@ -1,0 +1,11 @@
+user_id,username,email,password_hash,tier
+USR-10001,perf_test_user_001,testuser001@example.com,$2a$10$TEST_MOCK_HASH_x19283746152435,GOLD
+USR-10002,perf_test_user_002,testuser002@example.com,$2a$10$TEST_MOCK_HASH_x9871234567890,SILVER
+USR-10003,perf_test_user_003,testuser003@example.com,$2a$10$TEST_MOCK_HASH_x5647382910293,PLATINUM
+USR-10004,perf_test_user_004,testuser004@example.com,$2a$10$TEST_MOCK_HASH_x7364528192039,REGULAR
+USR-10005,perf_test_user_005,testuser005@example.com,$2a$10$TEST_MOCK_HASH_x8473625192039,GOLD
+USR-10006,perf_test_user_006,testuser006@example.com,$2a$10$TEST_MOCK_HASH_x1029384756102,SILVER
+USR-10007,perf_test_user_007,testuser007@example.com,$2a$10$TEST_MOCK_HASH_x4958372615482,PLATINUM
+USR-10008,perf_test_user_008,testuser008@example.com,$2a$10$TEST_MOCK_HASH_x8472910485729,REGULAR
+USR-10009,perf_test_user_009,testuser009@example.com,$2a$10$TEST_MOCK_HASH_x2019384756291,GOLD
+USR-10010,perf_test_user_010,testuser010@example.com,$2a$10$TEST_MOCK_HASH_x9482019485729,SILVER
