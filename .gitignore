@@ -1,0 +1,72 @@
+# ==============================================================================
+# .gitignore for Performance Testing Engineering Repositories
+# ==============================================================================
+# Golden Rule: Version test code, test configurations, and small seed data.
+# NEVER commit large execution outputs (.jtl), generated HTML reports, or real secrets.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. JMeter Artifacts (Large binary/text results and execution logs)
+# ------------------------------------------------------------------------------
+*.jtl
+*.jtl.gz
+jmeter.log
+jmeter.log.*
+jmeter-*.log
+results/*.jtl
+results/*.csv
+!data/*.csv
+
+# ------------------------------------------------------------------------------
+# 2. LoadRunner / VuGen Output & Temporary Files
+# ------------------------------------------------------------------------------
+results/
+result*/
+*.idx
+*.bak
+*.ci
+*.log
+mdrv*
+options.txt
+output.txt
+vuser_init.c.bak
+Action.c.bak
+vuser_end.c.bak
+
+# ------------------------------------------------------------------------------
+# 3. Generated HTML Dashboard Reports (Re-creatable on demand from JTLs)
+# ------------------------------------------------------------------------------
+reports/html*/
+reports/generated/
+reports/temp/
+
+# ------------------------------------------------------------------------------
+# 4. Gatling, k6, and Locust Artifacts
+# ------------------------------------------------------------------------------
+target/
+gatling-charts-highcharts-bundle-*/
+.k6/
+*.summary.json
+
+# ------------------------------------------------------------------------------
+# 5. Security & Sensitive Data (NEVER commit credentials or private keys)
+# ------------------------------------------------------------------------------
+*credentials*
+*password*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.env
+
+# ------------------------------------------------------------------------------
+# 6. Operating System & IDE Configurations
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
